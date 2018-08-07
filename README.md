@@ -12,6 +12,7 @@ Learning Sequence | Title | Link | Notes
 6 | Introduction to Data Visualization | [iPython Notebook](https://github.com/cschellenberger/Data_science/blob/master/Introduction-to-Data-Visualization-with-Python.ipynb) | Matplotlib introduction to main data plots and customization
 7 | pandas Foundation | [iPython Notebook](https://github.com/cschellenberger/Data_science/blob/master/pandas-Foundations.ipynb) | Detailed technical foundation in using the pandas package for data wrangling and visualization
 8 | Manipulating Dataframes with Pandas | [iPython Notebook](https://github.com/cschellenberger/Data_science/blob/master/Manipulating%20DataFrames%20with%20pandas.ipynb) | Techniques for working with general DataFrame processes
+9 | Merging DataFrames with Pandas | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Merging%20DataFrames.ipynb) | Working with multiple related DataFrames
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
