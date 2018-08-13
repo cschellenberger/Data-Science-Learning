@@ -13,6 +13,8 @@ Learning Sequence | Title | Link | Notes
 7 | pandas Foundation | [iPython Notebook](https://github.com/cschellenberger/Data_science/blob/master/pandas-Foundations.ipynb) | Detailed technical foundation in using the pandas package for data wrangling and visualization
 8 | Manipulating Dataframes with Pandas | [iPython Notebook](https://github.com/cschellenberger/Data_science/blob/master/Manipulating%20DataFrames%20with%20pandas.ipynb) | Techniques for working with general DataFrame processes
 9 | Merging DataFrames with Pandas | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Merging%20DataFrames.ipynb) | Working with multiple related DataFrames
+10 | Python Data Science Toolbox (Part 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Python%20Data%20Science%20Toolbox%20(Part%202).ipynb) | Iterators and generators
+11 | Importing Data in Python (Part 1) | iPython Notebook | *Notes*
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
