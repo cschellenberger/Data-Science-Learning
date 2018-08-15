@@ -15,7 +15,7 @@ Learning Sequence | Title | Link | Notes
 9 | Merging DataFrames with Pandas | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Merging%20DataFrames.ipynb) | Working with multiple related DataFrames
 10 | Python Data Science Toolbox (Part 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Python%20Data%20Science%20Toolbox%20(Part%202).ipynb) | Iterators and generators
 11 | Importing Data in Python (Part 1) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Importing%20Data%20in%20Python%20(Part%201).ipynb) | Importing Flat Files, MATLAB, Strata, and SQL data
-12 | Importing Data in Python (Part 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Importing%20Data%20in%20Python%20(Part%202).ipynb) | *Notes*
+12 | Importing Data in Python (Part 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Importing%20Data%20in%20Python%20(Part%202).ipynb) | Importing using URLs and APIs
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
