@@ -1,3 +1,14 @@
+# Datasources and Files
+*.csv
+*.png
+*.jpeg
+*.pdf
+*.xlsx
+*.py
+*.tsv
+*.hdf5
+*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
