@@ -17,6 +17,7 @@ Learning Sequence | Title | Link | Notes
 11 | Importing Data in Python (Part 1) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Importing%20Data%20in%20Python%20(Part%201).ipynb) | Importing Flat Files, MATLAB, Strata, and SQL data
 12 | Importing Data in Python (Part 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Importing%20Data%20in%20Python%20(Part%202).ipynb) | Importing using URLs and APIs
 13 | SQL Beginner&Intermediate Tutorial | [Mode Report](https://modeanalytics.com/cschellenberger/reports/00ebaa5e3f8e) | Basic syntax, logical operators, and joins
+14 | Statistical Thinking (Part 1 & 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Statistical%20Thinking.ipynb) | Statistical EDA, Hypothesis Testing
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
