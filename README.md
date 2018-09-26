@@ -5,8 +5,8 @@
 Learning Sequence | Title | Link | Notes
 ----------------- | ----- | ---- | -----
 1 | Data Types for Data Science | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Data%20Types%20for%20Data%20Science.ipynb) | General overview of datatypes in Python
-2 | Unix Shell Commands for Data Science | [Text File](https://github.com/cschellenberger/Data_science/blob/master/unixshell_data_camp.txt) | Fundamentals of using unix commands
-3 | Git Introduction | [Text File](https://github.com/cschellenberger/Data_science/blob/master/Git_DataCamp_Introduction.txt) | General commands for commiting, staging, deleting, and working with history
+2 | Unix Shell Commands for Data Science | [DataCamp Course](https://www.datacamp.com/courses/introduction-to-shell-for-data-science) | Fundamentals of using unix commands
+3 | Git Introduction | [DataCamp Course](https://www.datacamp.com/courses/introduction-to-git-for-data-science) | General commands for commiting, staging, deleting, and working with history
 4 | Intro to Data Science | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Data%20Science%20Intro.ipynb) | Fundamentals of Python and an introduction to the Data Science stack
 5 | Data Science Toolbox Part 1 | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Python%20Data%20Science%20Toolbox%20(Part%201).ipynb) | Data wrangling, computation, visualization, and statistical practices
 6 | Introduction to Data Visualization | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Introduction%20to%20Data%20Visualization%20in%20Python.ipynb) | Matplotlib introduction to main data plots and customization
