@@ -20,6 +20,7 @@ Learning Sequence | Title | Link | Notes
 14 | Statistical Thinking (Part 1 & 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Statistical%20Thinking.ipynb) | Statistical EDA, Hypothesis Testing
 15 | Bias and Regression | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Bias%20and%20Regression.ipynb) Markdown | Intro to Statistical Learning + Machine Learning principles
 16 | Capability of a Model | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Capability%20of%20a%20Model.ipynb) Markdown | A look at different ML methods and algorithms
+17 | Supervised Learning | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Supervised%20Learning%20with%20scikit-learn.ipynb) | Regression and Classification ML Techniques
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
