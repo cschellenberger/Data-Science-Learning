@@ -18,8 +18,8 @@ Learning Sequence | Title | Link | Notes
 12 | Importing Data in Python (Part 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Importing%20Data%20in%20Python%20(Part%202).ipynb) | Importing using URLs and APIs
 13 | SQL Beginner&Intermediate Tutorial | [Mode Report](https://modeanalytics.com/cschellenberger/reports/00ebaa5e3f8e) | Basic syntax, logical operators, and joins
 14 | Statistical Thinking (Part 1 & 2) | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Statistical%20Thinking.ipynb) | Statistical EDA, Hypothesis Testing
-15 | Bias and Regression | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Bias%20and%20Regression.ipynb) Markdown | Intro to Statistical Learning + Machine Learning principles
-16 | Capability of a Model | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Capability%20of%20a%20Model.ipynb) Markdown | A look at different ML methods and algorithms
+15 | Bias and Regression | [Markdown](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Bias%20and%20Regression.md) | Intro to Statistical Learning + Machine Learning principles
+16 | Capability of a Model | [Markdown](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Capability%20of%20a%20Model.md) | A look at different ML methods and algorithms
 17 | Supervised Learning | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Supervised%20Learning%20with%20scikit-learn.ipynb) | Regression and Classification ML Techniques
 
 ## Future Learning
