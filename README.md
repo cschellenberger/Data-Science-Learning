@@ -21,6 +21,7 @@ Learning Sequence | Title | Link | Notes
 15 | Bias and Regression | [Markdown](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Bias%20and%20Regression.md) | Intro to Statistical Learning + Machine Learning principles
 16 | Capability of a Model | [Markdown](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Capability%20of%20a%20Model.md) | A look at different ML methods and algorithms
 17 | Supervised Learning | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Supervised%20Learning%20with%20scikit-learn.ipynb) | Regression and Classification ML Techniques
+18 | SVM and Trees | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/SVM%20and%20Trees.ipynb) | Support Vector Machines and Trees
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
