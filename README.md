@@ -25,6 +25,7 @@ Learning Sequence | Title | Link | Notes
 19 | sklearn Supervised Learning | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Supervised%20Learning%20with%20scikit-learn.ipynb) | Introduction to Classifiers and Supervised Problems
 20 | Bayesian Methods | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Bayesian%20Methods-Text%20Data.ipynb) | Bayesian Techniques for Text Data
 21 | Unsupervised Learning | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Clustering.ipynb) | Clustering Techniques
+22 | Amazon Web Services - SageMaker | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/AWS%20SageMaker%20Tutorial.ipynb) | Amazon ML Platform Example
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
