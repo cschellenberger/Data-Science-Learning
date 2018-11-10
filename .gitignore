@@ -10,6 +10,7 @@
 *.hdf5
 *.txt
 *.rtfd
+*.p
 .vscode
 
 # Byte-compiled / optimized / DLL files
