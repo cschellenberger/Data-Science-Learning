@@ -95,5 +95,46 @@ Pandas Series and DataFrames - Lecture and Questions
     - Continuous Integration
     
 ****
-
+# Constructive Code Review
+## @ErikRose
+### [Video Link](https://youtu.be/iNG1a--SIlk)
 ****
+
+# Pycon 2017
+- Our comments in code review need to be durable and consistent over time
+    - No outdating links. If you are going to link, link to a specific commit
+    - What time will the edit be done? When checking progress, be specific of the requirements and expectations
+- **Clarity of Explanation**
+    - Code
+    - Links
+    - Higher-bandwidth communications
+    - Write down the results!
+- **Clarity of Expectation**
+- **Tact Hacks** - The Question Mark ... You, We, & This ... Compliments ... Humor
+- **AntiPatterns** 
+    - prose overview of patch
+    - long commit messages
+    - small commits
+    - comments, docstrings, naming
+- **GitX** - breakup changes into multiple commits
+- **FileMerge** - Comes packaged with Xcode and is a great tool for checking your diffs
+- **Nitpicks** - need to check your self-confidence
+- **Python Enhancer Proposals** - PEP 8, PEP 257, Pocco style guide, Sphinx
+- **Linters** - flake8
+- **Turnarounds**
+    - Energizing
+    - Comprehensiveness not required
+    - Working memory
+    - Quick "no's"
+- **Feeling Short on Time**
+    - Lower standards
+    - Never sleep
+    - Or pace, prioritize, and peace
+![TimeAlgorithm](https://s3-us-west-2.amazonaws.com/schellenbergers3bucket/Time+Decision+Tree.png)
+    - **The 2-Minute Rule**
+    - Patch-batching
+    - Leveling up newcomers (1 -> 2 -> 3 ----> Superstar)
+- **The Trust Bank**
+    - Never eat lunch alone
+    - Say what you feel
+![Checklist](https://s3-us-west-2.amazonaws.com/schellenbergers3bucket/Review+Checklist.png)
