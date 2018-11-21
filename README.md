@@ -27,6 +27,7 @@ Learning Sequence | Title | Link | Notes
 21 | Unsupervised Learning | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Clustering.ipynb) | Clustering Techniques
 22 | Amazon Web Services - SageMaker | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/AWS%20SageMaker%20Tutorial.ipynb) | Amazon ML Platform Example
 23 | Network Analysis in Python | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Network%20Analysis%20in%20Python.ipynb) | Graph Analysis in Python
+24 | Deep Learning Intro | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Deep%20Learning%20Introduction.ipynb) | Basics of DL with Keras
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
