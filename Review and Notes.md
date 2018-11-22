@@ -138,3 +138,128 @@ Pandas Series and DataFrames - Lecture and Questions
     - Never eat lunch alone
     - Say what you feel
 ![Checklist](https://s3-us-west-2.amazonaws.com/schellenbergers3bucket/Review+Checklist.png)
+
+****
+# Getting Started Testing
+## [Presenter's Notes](https://nedbatchelder.com/text/test0.html)
+## [Video Link](https://youtu.be/FxSsnHeWQBY)
+****
+
+# PyCon 2014
+- Automated testing is the best way we know how to find out if code works
+    - Know if your code works
+    - Save time
+    - Better code
+    - Remove Fear
+1. Growing tests
+2. `unittest` module
+3. Mocks
+
+- **Growing Complication** Testing becomes complicated quickly
+    - Independent tests for each code snippet
+        - **Tests will grow** - in complexity
+        - **Real programs** - are required to run tests in the way we want
+        - **Real engineering** - tests will become an engineering problem
+        - **Handle common issues in standard ways**
+- **`unittest`** is the programmatic solution to this problem [Link](https://youtu.be/FxSsnHeWQBY?t=617)
+    - *Good tests* are:
+        - Automated
+        - Fast
+        - Reliable
+        - Informative
+        - Focused
+    - Example:
+    ```python
+    # test_port1.py
+    
+    import unittest
+    from portfolio1 import Portfolio
+    
+    class PortfolioTest(unittest.TestCase):
+        def test_buy_one_stock(self):
+            p = Portfolio()
+            p.buy("IBM", 100, 176.48)
+            assert p.cost() == 17648.0
+    ```
+    
+    ```python
+    $ python -m unittest test_port1
+    ```
+    - `-m` in the terminal code will run the code in the module specified (`unittest`). And `unittest` knows how to find the code to test by looking for `test_` in the method.
+    - Under the hood, `unittest` is running `try:`, `except`, `else:` processes.
+    - **Assert Helpers** [Link](https://youtu.be/FxSsnHeWQBY?t=960)
+    ```python
+    def test_buy_one_stock(self):
+        p = Portfolio()
+        p.buy("IBM", 100, 176.48)
+        self.assertEqual(p.cost(), 17648.0)
+    ```
+    - When the assertion fails we get more debugging information [Link](https://youtu.be/FxSsnHeWQBY?t=1030)
+    - **Pro Tip** Make your own base class [Link](https://youtu.be/FxSsnHeWQBY?t=1038)
+    - **Assert Raises** for checking TypeErrors [Link](https://youtu.be/FxSsnHeWQBY?t=1228)
+    - **Repetition in your tests** use the setup method [Link](https://youtu.be/FxSsnHeWQBY?t=1303)
+        - Also tearDown
+        - Also "fixtures" *something to look into*
+- **Mocks** [Link](https://youtu.be/FxSsnHeWQBY?t=1405)
+    - **Test Doubles** will replace large and slow code dependencies with small and light standins
+    - **Coverage reports** what code was not tested? 
+    - **Even Better** mock objects [Link](https://youtu.be/FxSsnHeWQBY?t=1761)
+    - **Test doubles**
+        - Powerful: isolates code
+        - Focuses tests
+        - Removes speed bumps and randomness
+        - BUT: fragile tests!
+        - Also: "dependency injection" *something to look into*
+- **Tools** [Link](https://youtu.be/FxSsnHeWQBY?t=1929)
+    - **addCleanup** nicer than tearDown
+    - **doctest** only for testing docs!!!
+    - **nose, py.test** better test runners
+    - **ddt** data-driven tests
+    - **coverage** you'll wonder how you lived without it
+    - **Selenium** in-browser testing
+    - **Jenkins, Travis** run tests all the time
+- **Topics** [Link](https://youtu.be/FxSsnHeWQBY?t=1987)
+    - **TDD** tests before code!?
+    - **BDD** describe external behaviour
+    - **integration tests** bigger chunks
+    - **load testing** how much traffic is OK?
+    - others, I'm sure...
+
+****
+# Python Debugging
+## [Video Link](https://youtu.be/04paHt9xG9U)
+## [Presenter Resources](https://github.com/krother/talks/tree/master/500speeches)
+****
+
+- **Assertion Errors** How do we find the source of an `assert` error? [Link](https://youtu.be/04paHt9xG9U?t=2015)
+```python
+import pdb; pdb.set_trace()
+```
+- `l` where are you in the code
+- `n` executes the next line
+- `s` executes the function
+- `dir()`
+- `locals()`
+- `b` breakpoint `b 68` break at line 68
+- `c` continue
+- `q` quit
+- **conditional breakpoints** [Link](https://youtu.be/04paHt9xG9U?t=2780)
+```python
+b 69, length != sum(aa_counts)
+```
+
+- **Other Tools** - try, except
+    - count
+    - tests
+    - linter
+    
+- **Logging** [Link](https://youtu.be/04paHt9xG9U?t=4266)
+
+****
+# Deploying Python models to production
+## [Video Link](https://youtu.be/f3I0izerPvc)
+****
+
+### PyData 2017
+
+- Jenkins, Docker [Link](https://youtu.be/f3I0izerPvc?t=515), Kubernetes [Link](https://youtu.be/f3I0izerPvc?t=704), Heapster and ELK [Link](https://youtu.be/f3I0izerPvc?t=1023), Kibana, custom Flask app, custom json logger, Process D > T > A > P [Link](https://youtu.be/f3I0izerPvc?t=1486)
