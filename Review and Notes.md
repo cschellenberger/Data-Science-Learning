@@ -263,3 +263,39 @@ b 69, length != sum(aa_counts)
 ### PyData 2017
 
 - Jenkins, Docker [Link](https://youtu.be/f3I0izerPvc?t=515), Kubernetes [Link](https://youtu.be/f3I0izerPvc?t=704), Heapster and ELK [Link](https://youtu.be/f3I0izerPvc?t=1023), Kibana, custom Flask app, custom json logger, Process D > T > A > P [Link](https://youtu.be/f3I0izerPvc?t=1486)
+
+****
+# Introduction to Spark with Python
+## [Link to Video](https://youtu.be/9xYfNznjClE)
+## [Git Repo PyCon 2015](https://github.com/okaram/spark-pycon15)
+****
+
+- Resilient Distributed Datasets [Link](https://youtu.be/9xYfNznjClE?t=186)
+- Funtional Programming tools in Python [Link](https://youtu.be/9xYfNznjClE?t=546)
+- Flatmap [Link](https://youtu.be/9xYfNznjClE?t=1642)
+- Now with Spark [Link](https://youtu.be/9xYfNznjClE?t=1907)
+- `sc.parallize` will generate a RDD
+- If you see a wall of text from Spark logging, you will need to update the profile document. There is a starting draft in the directories provided on the GitHub repo for this video.
+- Some RDD methods [Link](https://youtu.be/9xYfNznjClE?t=3034)
+    - Transformations
+    - Actions
+- Read files [Link](https://youtu.be/9xYfNznjClE?t=3314)
+- Tuples and ReduceByKey -- Like SQL GroupBy [Link](https://youtu.be/9xYfNznjClE?t=3678)
+- Sending Programs with Shell [Link](https://youtu.be/9xYfNznjClE?t=4734)
+- Importing local modules .py files [Link](https://youtu.be/9xYfNznjClE?t=4911)
+- Joins [Link](https://youtu.be/9xYfNznjClE?t=5486)
+- Writing spark applications [Link](https://youtu.be/9xYfNznjClE?t=6335)
+- Other Functions [Link](https://youtu.be/9xYfNznjClE?t=6429)
+    - Sample()
+    - Union, intersection, distinct
+    - Coalesce, repartition
+    - aggregateByKey
+    - groupByKey
+    - repartitionAndSortWithinPartitions
+    - mapPartitions, mapPartitionsWithIndex
+- **New DataTable functionality** [Link](https://youtu.be/9xYfNznjClE?t=6581)
+- We now use a SQL context instead of a spark context
+- DataTable methodes [Link](https://youtu.be/9xYfNznjClE?t=7291)
+- **You can do SQL** [Link](https://youtu.be/9xYfNznjClE?t=7881)
+- Performance Considerations [Link](https://youtu.be/9xYfNznjClE?t=8620)
+- End of Talk -- Questions -- Slideshow ends with a discussion of Spark over Hadoop [Link](https://youtu.be/9xYfNznjClE?t=9002)
