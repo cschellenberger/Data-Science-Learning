@@ -28,6 +28,9 @@ Learning Sequence | Title | Link | Notes
 22 | Amazon Web Services - SageMaker | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/AWS%20SageMaker%20Tutorial.ipynb) | Amazon ML Platform Example
 23 | Network Analysis in Python | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Network%20Analysis%20in%20Python.ipynb) | Graph Analysis in Python
 24 | Deep Learning Intro | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Deep%20Learning%20Introduction.ipynb) | Basics of DL with Keras
+25 | Data Science YouTube Presentation Notes | [Markdown](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Review%20and%20Notes.md) | YouTube Data Science [Playlist](https://www.youtube.com/playlist?list=PLDgEmOFD-gTZTn0AvPYo2rhGMLJMCjVHz)
+26 | Introduction to PySpark | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/PySpark.ipynb) | DataTables, SQL queries, Machine Learning Example
+27 | NLP Fundamentals | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/NLP%20Fundamentals%20in%20Python.ipynb) | Regular Expressions, Basic Methods, and Applications of NLP
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
