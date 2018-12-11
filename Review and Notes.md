@@ -299,3 +299,20 @@ b 69, length != sum(aa_counts)
 - **You can do SQL** [Link](https://youtu.be/9xYfNznjClE?t=7881)
 - Performance Considerations [Link](https://youtu.be/9xYfNznjClE?t=8620)
 - End of Talk -- Questions -- Slideshow ends with a discussion of Spark over Hadoop [Link](https://youtu.be/9xYfNznjClE?t=9002)
+
+****
+# Machine Learning on Apache Spark MLlib
+## [Video Link](https://youtu.be/qKYpMPPL-fo)
+## [Presentation Repo]
+****
+
+- Intro to Spark API [Link](https://youtu.be/qKYpMPPL-fo?t=143)
+- A Spark visual for the structure [Link](https://youtu.be/qKYpMPPL-fo?t=325)
+    - Followed quickly by the Spark Execution Model
+- Transformations and Actions [Link](https://youtu.be/qKYpMPPL-fo?t=531)
+- Predicting Churn Example [Link](https://youtu.be/qKYpMPPL-fo?t=755)
+- Create a Dataframe [Link](https://youtu.be/qKYpMPPL-fo?t=993)
+    - Why Dataframe?
+- Specify Feature Extraction [Link](https://youtu.be/qKYpMPPL-fo?t=1358)
+- Evaluating Classifiers: ROC [Link](https://youtu.be/qKYpMPPL-fo?t=1569)
+- Repo for an example [Link Video](https://youtu.be/qKYpMPPL-fo?t=1807) [Repo Link](https://github.com/hougs/ds-for-telco)
