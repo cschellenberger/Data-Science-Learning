@@ -316,3 +316,27 @@ b 69, length != sum(aa_counts)
 - Specify Feature Extraction [Link](https://youtu.be/qKYpMPPL-fo?t=1358)
 - Evaluating Classifiers: ROC [Link](https://youtu.be/qKYpMPPL-fo?t=1569)
 - Repo for an example [Link Video](https://youtu.be/qKYpMPPL-fo?t=1807) [Repo Link](https://github.com/hougs/ds-for-telco)
+
+****
+# Time Series Analysis with Python
+## [Video Link](https://youtu.be/zmfe2RaX-14)
+## [Slides & Examples](https://github.com/ikding/pycon_time_series)
+****
+
+- pandas overview [Link](https://youtu.be/zmfe2RaX-14?t=458)
+- Dealing with time [Link](https://youtu.be/zmfe2RaX-14?t=738)
+- Time Intervals [Link](https://youtu.be/zmfe2RaX-14?t=1422)
+- Timezone Handling [Link](https://youtu.be/zmfe2RaX-14?t=2072)
+- Reading data into pandas [Link](https://youtu.be/zmfe2RaX-14?t=2688)
+- Analyze Datetime Data [Link](https://youtu.be/zmfe2RaX-14?t=3142)
+- After the break -- resampling [Link](https://youtu.be/zmfe2RaX-14?t=4048)
+- Moving Window Functions [Link](https://youtu.be/zmfe2RaX-14?t=4405)
+    - Rolling Window Examples [Link](https://youtu.be/zmfe2RaX-14?t=4853)
+- Back from break -- example review [Link](https://youtu.be/zmfe2RaX-14?t=6405)
+- Self-Correlation [Link](https://youtu.be/zmfe2RaX-14?t=6634)
+    - Example [Link](https://youtu.be/zmfe2RaX-14?t=7080)
+- Pre-Prediction Munging & Stationarity [Link](https://youtu.be/zmfe2RaX-14?t=7565)
+- Forcasting [Link](https://youtu.be/zmfe2RaX-14?t=8115)
+- Forcasting in Code [Link](https://youtu.be/zmfe2RaX-14?t=8673)
+- Time Series Classification [Link](https://youtu.be/zmfe2RaX-14?t=10080)
+    - Coding Example [Link](https://youtu.be/zmfe2RaX-14?t=10408)
