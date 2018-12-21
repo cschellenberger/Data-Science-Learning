@@ -31,6 +31,7 @@ Learning Sequence | Title | Link | Notes
 25 | Data Science YouTube Presentation Notes | [Markdown](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Review%20and%20Notes.md) | YouTube Data Science [Playlist](https://www.youtube.com/playlist?list=PLDgEmOFD-gTZTn0AvPYo2rhGMLJMCjVHz)
 26 | Introduction to PySpark | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/PySpark.ipynb) | DataTables, SQL queries, Machine Learning Example
 27 | NLP Fundamentals | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/NLP%20Fundamentals%20in%20Python.ipynb) | Regular Expressions, Basic Methods, and Applications of NLP
+28 | SQL for Data Science | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/SQL%20for%20Data%20Science.ipynb) | Advanced Joins and Subqueries
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
