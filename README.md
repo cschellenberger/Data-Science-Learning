@@ -32,7 +32,7 @@ Learning Sequence | Title | Link | Notes
 26 | Introduction to PySpark | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/PySpark.ipynb) | DataTables, SQL queries, Machine Learning Example
 27 | NLP Fundamentals | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/NLP%20Fundamentals%20in%20Python.ipynb) | Regular Expressions, Basic Methods, and Applications of NLP
 28 | SQL for Data Science | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/SQL%20for%20Data%20Science.ipynb) | Advanced Joins and Subqueries
-29 | Intro to Databases | [iPython Notebook]() | Programmatically work with databases through sqlalchemy
+29 | Intro to Databases | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Introduction%20to%20Databases.ipynb) | Programmatically work with databases through sqlalchemy
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
