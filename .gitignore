@@ -13,6 +13,7 @@ keys.py
 *.rtfd
 *.p
 .vscode
+*.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
