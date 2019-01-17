@@ -33,6 +33,7 @@ Learning Sequence | Title | Link | Notes
 27 | NLP Fundamentals | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/NLP%20Fundamentals%20in%20Python.ipynb) | Regular Expressions, Basic Methods, and Applications of NLP
 28 | SQL for Data Science | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/SQL%20for%20Data%20Science.ipynb) | Advanced Joins and Subqueries
 29 | Intro to Databases | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Introduction%20to%20Databases.ipynb) | Programmatically work with databases through sqlalchemy
+30 | Interactive Visualizations - Bokeh | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Interactive%20Data%20Visualization%20with%20Bokeh.ipynb) | Generate local and server visualization applications
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
