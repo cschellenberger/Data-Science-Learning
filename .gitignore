@@ -12,6 +12,7 @@ keys.py
 *.txt
 *.rtfd
 *.p
+*.Rmd
 .vscode
 *.html
 
