@@ -34,7 +34,8 @@ Learning Sequence | Title | Link | Notes
 28 | SQL for Data Science | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/SQL%20for%20Data%20Science.ipynb) | Advanced Joins and Subqueries
 29 | Intro to Databases | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Introduction%20to%20Databases.ipynb) | Programmatically work with databases through sqlalchemy
 30 | Interactive Visualizations - Bokeh | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Interactive%20Data%20Visualization%20with%20Bokeh.ipynb) | Generate local and server visualization applications
-31 | Machine Learning with XGBoost | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Extreme%20Gradient%20Boosting%20with%20XGBoost.ipynb) | Classification, Regression, and Pipeline methods with the versatile XGBoost library 
+31 | Machine Learning with XGBoost | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Extreme%20Gradient%20Boosting%20with%20XGBoost.ipynb) | Classification, Regression, and Pipeline methods with the versatile XGBoost library
+32 | Writing Efficient Python Code | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Writing%20Efficient%20Python%20Code.ipynb) | Analyzing and understanding efficiencies in Python
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
