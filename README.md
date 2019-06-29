@@ -36,6 +36,7 @@ Learning Sequence | Title | Link | Notes
 30 | Interactive Visualizations - Bokeh | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Interactive%20Data%20Visualization%20with%20Bokeh.ipynb) | Generate local and server visualization applications
 31 | Machine Learning with XGBoost | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Extreme%20Gradient%20Boosting%20with%20XGBoost.ipynb) | Classification, Regression, and Pipeline methods with the versatile XGBoost library
 32 | Writing Efficient Python Code | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Writing%20Efficient%20Python%20Code.ipynb) | Analyzing and understanding efficiencies in Python
+33 | Analyzing Police Activity with pandas | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Analyzing%20Police%20Activity%20with%20pandas.ipynb) | An analytical overview or refresher in pandas 
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
