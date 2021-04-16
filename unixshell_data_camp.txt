@@ -1,0 +1,169 @@
+Unix Shell Data Camp Course:
+
+pwd — will “print working directory” and this shows you the current working directory.
+
+Filesystem - responsible for managing files and directories.
+
+Absolute path - identifies every file and directory. Also giving a path to the file or directory from the top (or root).
+
+ls - lists the contents in the current directory
+	$ ls /home/repl/seasonal
+	autumn.csv  spring.csv  summer.csv  winter.csv
+
+cd - “change directory” 
+
+.. - “the directory above the one I’m currently in”
+
+. - “the current directory”
+
+~ - “your home directory”
+
+cp - is short for “copy” and is used to organize and generate new files
+
+	to copy a file from one directory to another:
+		cp directory/filename.ext directory2/filename_copy.ext
+	to copy multiple files to a new directory:
+		cp directory/filename_1.ext directory/filename_2.ext directory_2
+
+mv - is short for “move”
+
+	It handles its parameters the same way as cp.
+	mv can also be used to rename files by passing a new 
+
+rm - is short for remove or delete
+
+	
+rmdir - will allow you to remove an empty directory. Passing -r to rm will allow you to do the same thing.
+
+mkdir - will allow you to make a new directory under the current directory.
+
+/tmp - is a temporary folder under the root where normally you store files you only require briefly.
+
+cat - stands for “concatenate” since it will print all the files whose names to you give it.
+
+less - When you less a file, one page is displayed at a time; you can press spacebar to page down or type q to quit.
+	If you give less the names of several files, you can type :n (colon and a lower-case 'n') to move to the next file, :p to go back to the previous one, or :q to quit.
+
+head - prints the first 10 lines of a file
+	passing -n to head will allow you to specify the number of lines to print
+
+Tab Completion means that filenames will be auto completed by pressing tab if the name is unambiguous
+
+If you pass the flag -R to ls (which means “Recursive”) then you will see all the nested directories and files
+
+Adding -F as a flag will print a / after the name of every directory and a * after the name of every runnable program.
+
+man - this command will bring up the “manual” for whichever command to specify
+	The one-line description under NAME tells you briefly what the command does, and the summary under SYNOPSIS lists all the flags it understands. Anything that is optional is shown in square brackets [...], either/or alternatives are separated by |, and things that can be repeated are shown by ..., so head's manual page is telling you that you can either give a line count with -n or a byte count with -c, and that you can give it any number of filenames.
+
+tail -n +7 filename.ext  —  will print all but the first 6 lines of a file
+
+cut allows for printing sections of a file
+	cut -d : -f 2-4
+
+history - this will allow you to see all the command you have executed. 
+
+!command will run the last occurrence of the command in history
+
+head and tail select rows, cut selects columns, and grep selects lines according to what they contain. In its simplest form, grep takes a piece of text followed by one or more filenames and prints all of the lines in those files that contain that text. For example, grep bicuspid seasonal/winter.csv prints lines from winter.csv that contain "bicuspid".
+
+grep can search for patterns as well; we will explore those in the next course. What's more important right now is some of grep's more common flags:
+
+-c: print a count of matching lines rather than the lines themselves
+-h: do not print the names of files when searching multiple files
+-i: ignore case (e.g., treat "Regression" and "regression" as matches)
+-l: print the names of files that contain matches, not the matches
+-n: print line numbers for matching lines
+-v: invert the match, i.e., only show lines that don't match
+
+The greater-than sign > tells the shell to redirect a command’s output to a file.
+	You can then use this output file as the input for your next command
+	A more concise way is using “pipe” command designated by “ | ”
+
+$ cut -d , -f 2 seasonal/summer.csv | grep -v Tooth
+	When performing this pipe command, I initially forgot to state the delimiter and did not realize that the grep was case-sensitive
+
+$ cut -d , -f 2 seasonal/autumn.csv | grep -v Tooth | head -n 1
+
+wc - short for “word count” prints the number of characters, words and lines in a file
+	You can select only one of these outputs using -c, -w, or -l
+
+The shell allows you to use wildcards to specify a list of files with a single expression. The most common wildcard is *, which means "match zero or more characters".
+
+The shell has other wildcards as well, though they are less commonly used:
+
+? matches a single character, so 201?.txt will match 2017.txt or 2018.txt, but not 2017-01.txt.
+	•	[...] matches any one of the characters inside the square brackets, so 201[78].txt matches 2017.txt or 2018.txt, but not 2016.txt.
+	•	{...} matches any of the command-separated patterns inside the curly brackets, so {*.txt, *.csv} matches any file whose name ends with .txt or .csv, but not files whose names end with .pdf.
+
+sort - puts data in order. -n sorts numerically and -r reverses the order of the output, while -b ignores leading blanks and -f tells it to fold case (i.e. be case- sensitive).
+
+$ cut -d , -f 2 seasonal/winter.csv | grep -v Tooth | sort -r
+	•	this command pipeline uses cut to grab the second column of the winter dataset, then grep to remove the Tooth header and finally sort to order the output in descending alphabetical order
+
+$ cut -d , -f 2 seasonal/* | grep -v Tooth | sort | uniq -c
+	•	this command pipeline uses cut to grab the second column from all datasets in the seasonal directory, then grep to remove the Tooth header, then sort to place repeated value adjacent to one another, and finally uniq to count all the unique values.
+
+wc -l seasonal/* | grep -v total | sort -n | head -n 1
+	•	this command pipeline generates an output showing the file that has the fewest records
+
+set — is a command that lists all the stored environmental variables. Using a grep pipeline and the variable name, you can find the value of a single variable
+
+To get the variable's value, you must put a dollar sign $ in front of “echo”
+
+A shell variable can be stated like this:
+	•	$ testing=seasonal/winter.csv
+	•	you can call the value of this variable like this:
+	•	$ head -n 1 $testing
+
+Shell loops use shell variables. The following loop shows the basic syntax:
+	$ for suffix in docx odt pdf; do echo $suffix; done
+
+Shell loops can handle any number of commands. They need to be separated by a semi-colon “;”
+
+Unix has a bewildering varied of text editors. We will use a simple one called Nano. If you type “nano filename,” you will open filename.
+	You can move around with the arrow keys, delete characters using backspace, and do other operations with control-key combinations:
+
+Ctrl-K: delete a line.
+Ctrl-U: un-delete a line.
+Ctrl-O: save the file ('O' stands for 'output').
+Ctrl-X: exit the editor.
+
+How do I save my steps to a file?
+	history | tail -n 3 > steps.txt
+This command will pipe the output from history into a file.
+
+So far we have been using the shell interactively. However, we can run commands from a text file using the bash command.
+A file full of commands is called a shell script.
+
+A script that allows you to process any files you want is very useful. To support this, you can use the special expression “$@” to mean “all of the command-line parameters given to the script”
+
+$ cat range.sh
+wc -l $@ | grep -v total | sort -n | head -n 1
+wc -l $@ | grep -v total | sort -n -r | head -n 1
+	> range.out
+$ cat range.out
+  21 seasonal/autumn.csv
+  26 seasonal/winter.csv
+
+You can also write loops in shell scripts:
+# Print the first and last data records of each file.
+for filename in $@
+do
+    head -n 2 $filename | tail -n 1
+    tail -n 1 $filename
+done
+
+date-range.sh
+# Print the first and last date from each data file.
+for filename in $@
+do
+    cut -d , -f 1 $filename | grep -v Date | sort | head -n 1
+    cut -d , -f 1 $filename | grep -v Date | sort | tail -n 1
+done
+
+# you can pipe the outputs of a script and use it like all other Unix commands:
+
+$ bash date-range.sh seasonal/*.csv | sort
+
+
