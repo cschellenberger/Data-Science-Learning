@@ -1,15 +1,8 @@
 # Datasources and Files
 keys.py
-*.csv
-*.png
-*.jpeg
-*.jpg
-*.pdf
-*.xlsx
+keys_tokens.py
 *.py
 *.tsv
-*.hdf5
-*.txt
 *.rtfd
 *.p
 *.Rmd
@@ -146,8 +139,6 @@ venv.bak/
 # Logs and databases #
 ######################
 *.log
-*.sql
-*.sqlite
 
 # OS generated files #
 ######################
