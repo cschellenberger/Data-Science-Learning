@@ -40,6 +40,7 @@ Learning Sequence | Title | Link | Notes
 32 | Writing Efficient Python Code | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Writing%20Efficient%20Python%20Code.ipynb) | Analyzing and understanding efficiencies in Python
 33 | Analyzing Police Activity with pandas | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Analyzing%20Police%20Activity%20with%20pandas.ipynb) | An analytical overview or refresher in pandas 
 34 | Machine Learning with Tree-Based Models in Python | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Machine%20Learning%20with%20Tree-Based%20Models%20in%20Python.ipynb) | Supervised learning models for classificaiton and regression
+35 | Manipulating Data with pandas | [iPython Notebook](https://github.com/cschellenberger/Data-Science-Learning/blob/master/Data%20Manipulation%20with%20pandas.ipynb) | Data management and evaluation using the pandas package
 
 ## Future Learning
 [Mathematics for Machine Learning: Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
