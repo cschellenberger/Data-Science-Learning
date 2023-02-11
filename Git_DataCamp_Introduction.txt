@@ -34,7 +34,12 @@ To view the details of a specific commit, you use the command git show with the 
 
 You can use “git log” to see all the recent commits and then “git show” + the first few characters from the hash to display the specific changes for that hash.
 
-“git show HEAD ~1” will show the most recent hash
+“git show HEAD~1” will show the most recent hash
+
+HEAD~1, HEAD~2 ... discussion:
+A hash is like an absolute path: it identifies a specific commit. Another way to identify a commit is to use the equivalent of a relative path. The special label HEAD, which we saw in the previous chapter, always refers to the most recent commit. The label HEAD~1 then refers to the commit before it, while HEAD~2 refers to the commit before that, and so on.
+
+Note that the symbol between HEAD and the number is a tilde ~, not a minus sign -, and that there cannot be spaces before or after the tilde.
 
 “git annotate file” shows who made the last change to each line of a file and when. The hashes at the beginning of the lines show the sets of changes.
 
